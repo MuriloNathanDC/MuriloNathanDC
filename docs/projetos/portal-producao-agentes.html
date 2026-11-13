@@ -50,8 +50,17 @@ section{border-top:1px solid var(--line);padding:61px 0}p{color:var(--muted);max
 <section><div class="kicker">05 / Competências</div><h2>Indicadores, automação e desenvolvimento web</h2>
 <p>Google Apps Script, JavaScript, HTML/CSS, automação, estruturação de dados, definição de KPIs, regras de negócio, validação de importações e experiência de usuário orientada a operações.</p>
 <p class="small">Descrição pública em nível geral. Imagens e informações operacionais serão adicionadas somente após revisão de confidencialidade.</p></section>
-<section><div class="kicker">Apresentação visual</div><h2>Capturas de tela em preparação</h2>
-<p>Esta página documenta a solução em nível profissional. A galeria será complementada com imagens autorizadas, usando informações fictícias ou ocultando dados internos, nomes, identificadores e informações de clientes.</p>
-<div class="visual"><strong>Galeria a incluir</strong><p>Seleção de 3 a 5 telas que mostrem a experiência de uso, os indicadores e o fluxo de trabalho, sem expor dados operacionais.</p></div>
+<section><div class="kicker">05 / Apresentação visual</div><h2>Telas do Portal de Produção</h2>
+<p>Uma seleção de cinco capturas do ambiente de homologação: visão geral da produção, produção por agente, detalhamento individual, importação da produção e dados complementares. Identificações pessoais e matrículas foram ocultadas nas imagens preparadas para o portfólio.</p>
+<div class="visual"><strong>Galeria de 5 telas selecionadas</strong><p id="producao-gallery-status">Galeria preparada. Aguardando o envio do arquivo HTML ao repositório.</p><p><a id="producao-gallery-link" href="portal-producao-galeria.html" style="display:none;font-weight:700">Visualizar galeria de telas ↗</a></p></div>
+<p class="small">As telas exemplificam funcionalidades da aplicação e não constituem divulgação oficial de resultados corporativos.</p>
 <a class="back" href="../index.html#projetos">← Voltar ao portfólio</a></section>
+<script>
+fetch("portal-producao-galeria.html",{method:"HEAD"}).then(function(r){
+  if(r.ok){
+    document.getElementById("producao-gallery-link").style.display="inline";
+    document.getElementById("producao-gallery-status").textContent="Capturas de tela disponíveis para visualização.";
+  }
+}).catch(function(){});
+</script>
 <footer class="footer">© 2026 Murilo Natã Santos · Portfólio profissional</footer></div></body></html>

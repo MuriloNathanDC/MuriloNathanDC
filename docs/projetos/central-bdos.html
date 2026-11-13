@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Estudo de caso: aplicação web interna para acompanhamento de ocorrências, prazos e indicadores com Google Apps Script.">
+<title>Central de Gestão de BDOs | Murilo Natã Santos</title>
+<style>
+:root{color-scheme:light;--ink:#1b1c1e;--muted:#55585e;--line:#e0e1dd;--paper:#fafaf8;--card:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.72 Inter,Segoe UI,Arial,sans-serif}
+a{color:inherit}a:focus-visible{outline:2px solid #222;outline-offset:4px}.wrap{max-width:1030px;margin:0 auto;padding:0 26px}
+.nav{border-bottom:1px solid var(--line);padding:23px 0;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.nav a{text-decoration:none;font-weight:650;font-size:14px}.nav a:hover{text-decoration:underline}
+.hero{padding:77px 0 64px}.kicker{color:#666a70;letter-spacing:.14em;font-size:12px;font-weight:750;text-transform:uppercase}
+h1{font-size:clamp(39px,6vw,67px);letter-spacing:-.055em;line-height:1.1;max-width:900px;margin:17px 0 24px}h2{font-size:clamp(29px,4vw,40px);letter-spacing:-.04em;line-height:1.18;margin:14px 0 22px}h3{font-size:19px;letter-spacing:-.025em;margin:0 0 10px}
+.lead{font-size:20px;max-width:850px;color:#43464b}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:25px 0}.tag{font-size:12px;border-radius:25px;border:1px solid #dededb;background:#fff;color:#515359;padding:5px 11px}
+.pill{display:inline-block;border:1px solid #c7c8c4;background:#f1f1ee;padding:7px 13px;border-radius:5px;font-size:13px}
+section{border-top:1px solid var(--line);padding:61px 0}p{color:var(--muted);max-width:830px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:28px}
+.card{padding:24px;border:1px solid var(--line);border-radius:9px;background:var(--card);box-shadow:0 5px 24px rgba(0,0,0,.025)}.card p{font-size:15px;margin:0}
+.flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-top:28px}.step{background:#fff;border:1px solid var(--line);border-radius:7px;padding:16px 12px;font-size:14px;text-align:center}
+.callout{border-left:3px solid #515358;background:#f0f0ed;padding:16px 22px;margin-top:23px}.callout p{margin:0}
+.visual{border:1px dashed #b7b9b5;background:#f4f4f1;border-radius:9px;padding:34px 24px;margin-top:26px}.visual strong{display:block;margin-bottom:7px}.visual p{margin:0}.small{font-size:13px;color:#707379}
+.footer{border-top:1px solid var(--line);padding:32px 0;color:#6e6e6e;font-size:13px}.back{display:inline-block;margin-top:22px;font-weight:650}
+@media(max-width:720px){.hero{padding:54px 0}.grid{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.step{text-align:left}section{padding:47px 0}}
+</style>
+</head>
+<body><div class="wrap">
+<nav class="nav"><a href="../index.html">← MURILO NATÃ SANTOS</a><a href="../index.html#projetos">Todos os projetos ↗</a></nav>
+<header class="hero"><div class="kicker">Projeto profissional / FIMM Brasil · Automação e gestão</div><h1>Central de Gestão de BDOs</h1><p class="lead">Aplicação web para organizar ocorrências, prazos, providências, histórico e informações gerenciais em uma rotina operacional.</p>
+<div class="tags"><span class="tag">Google Apps Script</span><span class="tag">JavaScript</span><span class="tag">HTML / CSS</span><span class="tag">Automação</span><span class="tag">Gestão Operacional</span><span class="tag">Auditoria</span></div><div class="pill">Aplicação interna em uso e evolução</div></header>
+
+<section><div class="kicker">01 / Contexto</div><h2>Organizar ocorrências, prazos e acompanhamento</h2>
+<p>O acompanhamento de BDOs exige uma visão organizada de ocorrências, responsabilidades e datas relevantes. Quando as informações são consultadas em etapas distintas, pode ser difícil identificar rapidamente o que está pendente, em análise ou já acompanhado.</p>
+<p>O desafio foi criar uma interface interna para facilitar o acompanhamento operacional e a leitura gerencial, mantendo a separação entre controles internos e respostas oficiais.</p></section>
+<section><div class="kicker">02 / Solução desenvolvida</div><h2>Central de BDOs em aplicação web</h2>
+<div class="grid">
+<div class="card"><h3>Caixa de entrada e pendências</h3><p>Visão organizada das ocorrências para facilitar triagem, consulta e acompanhamento.</p></div>
+<div class="card"><h3>Acompanhamento e histórico</h3><p>Navegação entre situações atuais e registros históricos para dar contexto à operação.</p></div>
+<div class="card"><h3>Planos de ação</h3><p>Registro interno de providências e acompanhamento das ações relacionadas às ocorrências.</p></div>
+<div class="card"><h3>Visão gerencial</h3><p>Consolidação de informações para apoiar filtros, prioridades e leitura por unidade ou regional.</p></div>
+<div class="card"><h3>Controle de acesso</h3><p>Perfis e visibilidade associados às responsabilidades internas, com separação de escopos.</p></div>
+<div class="card"><h3>Sincronização e auditoria</h3><p>Atualização dos registros, indicação da última carga e rastreabilidade de atividades internas.</p></div></div>
+<div class="callout"><p><strong>Limite funcional importante:</strong> a Central apoia a gestão interna. O registro de uma providência na aplicação não substitui nem envia a resposta oficial ao sistema responsável.</p></div></section>
+<section><div class="kicker">03 / Arquitetura</div><h2>Do registro à visão de gestão</h2>
+<div class="flow"><div class="step">Fontes e extrações</div><div class="step">Sincronização</div><div class="step">Regras e perfis</div><div class="step">Web app Apps Script</div><div class="step">Acompanhamento</div></div>
+<p class="small">Esquema conceitual simplificado. Não são publicados endpoints, permissões internas, bases ou configurações de acesso.</p></section>
+<section><div class="kicker">04 / Minha contribuição</div><h2>Desenvolvimento com foco em operação e usabilidade</h2>
+<div class="grid">
+<div class="card"><h3>Regras do processo</h3><p>Organização de estados, prazos, filtros e fluxos de acompanhamento.</p></div>
+<div class="card"><h3>Interface web</h3><p>Construção de telas com Google Apps Script, HTML e JavaScript para consulta e acompanhamento.</p></div>
+<div class="card"><h3>Desempenho e confiabilidade</h3><p>Trabalho de otimização de carregamento, cache e atualização das informações.</p></div>
+<div class="card"><h3>Apoio à implantação</h3><p>Ajustes no uso administrativo e operacional, com evolução por testes e retorno dos usuários.</p></div></div></section>
+<section><div class="kicker">05 / Competências</div><h2>Aplicação de dados além do dashboard</h2>
+<p>Google Apps Script, JavaScript, HTML/CSS, automação de processos, controle de acesso, arquitetura de aplicação web, indicadores operacionais, melhoria de desempenho, auditoria e documentação.</p>
+<p class="small">Projeto profissional apresentado de forma descritiva. Os ambientes operacionais, o código interno e os registros corporativos permanecem privados.</p></section>
+<section><div class="kicker">Apresentação visual</div><h2>Capturas de tela em preparação</h2>
+<p>Esta página documenta a solução em nível profissional. A galeria será complementada com imagens autorizadas, usando informações fictícias ou ocultando dados internos, nomes, identificadores e informações de clientes.</p>
+<div class="visual"><strong>Galeria a incluir</strong><p>Seleção de 3 a 5 telas que mostrem a experiência de uso, os indicadores e o fluxo de trabalho, sem expor dados operacionais.</p></div>
+<a class="back" href="../index.html#projetos">← Voltar ao portfólio</a></section>
+<footer class="footer">© 2026 Murilo Natã Santos · Portfólio profissional</footer></div></body></html>

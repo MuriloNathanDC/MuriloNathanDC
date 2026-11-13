@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Case de Business Intelligence e Pricing na Lavoro Agro: indicadores de aderência a listas de preço, descontos, benchmark interno e análises de preço por faixa.">
+<title>Pricing e Inteligência Comercial — Lavoro | Murilo Natã Santos</title>
+<style>
+:root{color-scheme:light;--ink:#1b1c1e;--muted:#55585e;--line:#e0e1dd;--paper:#fafaf8;--card:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.72 Inter,Segoe UI,Arial,sans-serif}
+a{color:inherit}a:focus-visible{outline:2px solid #222;outline-offset:4px}.wrap{max-width:1030px;margin:0 auto;padding:0 26px}
+.nav{border-bottom:1px solid var(--line);padding:23px 0;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.nav a{text-decoration:none;font-weight:650;font-size:14px}.nav a:hover{text-decoration:underline}
+.hero{padding:77px 0 64px}.kicker{color:#666a70;letter-spacing:.14em;font-size:12px;font-weight:750;text-transform:uppercase}
+h1{font-size:clamp(39px,6vw,67px);letter-spacing:-.055em;line-height:1.1;max-width:940px;margin:17px 0 24px}h2{font-size:clamp(29px,4vw,40px);letter-spacing:-.04em;line-height:1.18;margin:14px 0 22px}h3{font-size:19px;letter-spacing:-.025em;margin:0 0 10px}
+.lead{font-size:20px;max-width:850px;color:#43464b}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:25px 0}.tag{font-size:12px;border-radius:25px;border:1px solid #dededb;background:#fff;color:#515359;padding:5px 11px}
+.pill{display:inline-block;border:1px solid #c7c8c4;background:#f1f1ee;padding:7px 13px;border-radius:5px;font-size:13px}
+section{border-top:1px solid var(--line);padding:61px 0}p{color:var(--muted);max-width:850px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:28px}
+.card{padding:24px;border:1px solid var(--line);border-radius:9px;background:var(--card);box-shadow:0 5px 24px rgba(0,0,0,.025)}.card p{font-size:15px;margin:0}
+.flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-top:28px}.step{background:#fff;border:1px solid var(--line);border-radius:7px;padding:16px 12px;font-size:14px;text-align:center}
+.callout{border-left:3px solid #515358;background:#f0f0ed;padding:16px 22px;margin-top:23px}.callout p{margin:0}
+.visual{border:1px dashed #b7b9b5;background:#f4f4f1;border-radius:9px;padding:34px 24px;margin-top:26px}.visual strong{display:block;margin-bottom:7px}.visual p{margin:0}.small{font-size:13px;color:#707379}
+.footer{border-top:1px solid var(--line);padding:32px 0;color:#6e6e6e;font-size:13px}.back{display:inline-block;margin-top:22px;font-weight:650}
+.number{font-size:12px;color:#7a7c7d;letter-spacing:.1em;font-weight:750;margin-bottom:9px}
+.metricrow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:30px 0}.mini{background:#fff;border:1px solid var(--line);padding:20px 16px;border-radius:8px;min-height:95px}.mini strong{display:block;font-size:16px;line-height:1.35}.mini span{display:block;font-size:12px;color:#6f7379;margin-top:7px}
+@media(max-width:720px){.hero{padding:54px 0}.grid,.metricrow{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.step{text-align:left}section{padding:47px 0}}
+</style>
+</head>
+<body><div class="wrap">
+<nav class="nav"><a href="../index.html">← MURILO NATÃ SANTOS</a><a href="../index.html#projetos">Todos os projetos ↗</a></nav>
+<header class="hero">
+<div class="kicker">Estudo de caso profissional / Lavoro Agro · Business Intelligence</div>
+<h1>Pricing e Inteligência Comercial</h1>
+<p class="lead">Análises de preços praticados, aderência a listas comerciais, descontos e benchmarks internos para apoiar o acompanhamento da estratégia de Pricing no setor de distribuição agrícola.</p>
+<div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">SQL</span><span class="tag">Google BigQuery</span><span class="tag">Power Query</span><span class="tag">Modelagem de Dados</span><span class="tag">Pricing</span></div>
+<div class="pill">Projeto profissional · Apresentação técnica sem dados comerciais restritos</div>
+</header>
+<section>
+<div class="kicker">01 / Problema de negócio</div><h2>Transformar regras comerciais em análises gerenciais</h2>
+<p>Em uma estrutura com diferentes empresas, regionais, produtos, safras e listas de preços, é necessário analisar os preços efetivamente praticados em comparação com referências comerciais, políticas de desconto e condições de pagamento.</p>
+<p>O desafio foi organizar essas informações em visões analíticas que permitissem investigar diferenças entre segmentos e períodos, explorar exceções e chegar ao detalhamento das operações.</p>
+</section>
+<section>
+<div class="kicker">02 / Indicadores e perguntas</div><h2>De uma visão executiva ao detalhe comercial</h2>
+<div class="metricrow">
+<div class="mini"><strong>Aderência à lista</strong><span>Preço praticado x referência</span></div>
+<div class="mini"><strong>Cobertura</strong><span>Operações com informação de lista</span></div>
+<div class="mini"><strong>Descontos</strong><span>Alçadas e comportamento comercial</span></div>
+<div class="mini"><strong>Margem</strong><span>Preço, custo e rentabilidade</span></div>
+</div>
+<p>Os indicadores são analisados sob filtros de cluster, empresa, regional, safra, produto, SKU, fornecedor, campanha e período, conforme a página selecionada.</p>
+</section>
+<section>
+<div class="kicker">03 / Módulos analíticos</div><h2>Cinco análises complementares</h2>
+<div class="grid">
+<div class="card"><div class="number">01 / Aderência</div><h3>KPI Aderência de Lista</h3><p>Receita e cobertura de listas de preços, comparação de preço médio praticado com preço de referência e leitura de descontos por estrutura comercial.</p></div>
+<div class="card"><div class="number">02 / Benchmark</div><h3>Benchmark Interno</h3><p>Comparação temporal de preço médio e volume entre clusters, empresas e regionais, permitindo investigar diferenças de posicionamento comercial.</p></div>
+<div class="card"><div class="number">03 / Descontos</div><h3>Análise de Descontos</h3><p>Matriz de calor por período e regional, comparativos de preços e identificação de variações associadas às políticas e alçadas comerciais.</p></div>
+<div class="card"><div class="number">04 / Faixas</div><h3>Análise de Preços por Faixa</h3><p>Classificação de operações por período de pagamento e regras de vencimento, com preço de referência ajustado conforme parâmetros financeiros.</p></div>
+<div class="card"><div class="number">05 / Cobertura</div><h3>Radar de Listas de Preço</h3><p>Monitoramento de registros com ou sem vínculo a listas de preço e de oportunidades para melhorar a completude das referências comerciais.</p></div>
+<div class="card"><div class="number">06 / Investigação</div><h3>Detalhamento e rastreabilidade</h3><p>Navegação do agregado ao registro detalhado para apoiar conferência de produtos, documentos, datas, fontes de preço e critérios de cálculo.</p></div>
+</div>
+</section>
+<section>
+<div class="kicker">04 / Arquitetura analítica</div><h2>Integração, tratamento e modelagem</h2>
+<div class="flow"><div class="step">Fontes comerciais</div><div class="step">SQL e BigQuery</div><div class="step">Power Query</div><div class="step">Modelo e medidas DAX</div><div class="step">Power BI</div></div>
+<p>O material técnico do projeto mostra consultas analíticas no BigQuery, informações de referência e apoio à estrutura comercial, transformações em Power Query e um modelo semântico com tabelas fato e dimensões para período, produto, filial e outras entidades.</p>
+<div class="grid">
+<div class="card"><h3>Tratamento de dados</h3><p>Padronização de identificadores e datas, associação entre informações de operação e referência comercial e tratamento de situações sem correspondência.</p></div>
+<div class="card"><h3>Medidas de Pricing</h3><p>Cálculos de preços médios ponderados, aderência às listas, descontos, margens e referências de preço no contexto dos filtros aplicados.</p></div>
+<div class="card"><h3>Regras comerciais</h3><p>Organização das classificações e das faixas por períodos e vencimentos, com documentação para facilitar interpretação e validação.</p></div>
+<div class="card"><h3>Experiência analítica</h3><p>Seletores de visão, filtros por dimensões comerciais, comparativos temporais e acesso ao detalhamento das informações.</p></div>
+</div>
+</section>
+<section>
+<div class="kicker">05 / Interpretabilidade</div><h2>Cálculos explicáveis e análises comparáveis</h2>
+<p>Além das visualizações, o painel inclui memória de cálculo para explicar a classificação das operações em faixas e a aplicação de parâmetros financeiros conforme datas de pagamento e vencimento.</p>
+<p>Nas comparações de preços, a definição da base de cálculo e o uso de médias ponderadas por volume são relevantes para evitar leituras enganosas quando o mix de produtos ou a composição comercial muda.</p>
+<div class="callout"><p><strong>Escopo desta demonstração:</strong> o portfólio descreve a solução e sua lógica analítica. Não reproduz valores de preço, custo, margens reais, clientes, documentos comerciais, nem código ou endereços internos das fontes.</p></div>
+</section>
+<section>
+<div class="kicker">06 / Apresentação visual</div><h2>Galeria de análises</h2>
+<p>As principais telas selecionadas para demonstração são: KPI Aderência de Lista, Benchmark Interno, Análise de Descontos, Análise de Preços por Faixa e Radar de Listas de Preço.</p>
+<div class="visual"><strong>Galeria de Pricing</strong><p id="pricing-gallery-status">Estudo de caso disponível. A galeria poderá ser adicionada após revisão e proteção de dados comerciais.</p><p><a id="pricing-gallery-link" href="pricing-lavoro-galeria.html" style="display:none;font-weight:700">Visualizar as telas do painel ↗</a></p></div>
+<a class="back" href="../index.html#projetos">← Voltar ao portfólio</a>
+</section>
+<script>fetch("pricing-lavoro-galeria.html",{method:"HEAD"}).then(function(r){if(r.ok){document.getElementById("pricing-gallery-link").style.display="inline";document.getElementById("pricing-gallery-status").textContent="Galeria disponível para visualização."}}).catch(function(){})</script>
+<footer class="footer">© 2026 Murilo Natã Santos · Portfólio profissional</footer>
+</div></body></html>

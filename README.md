@@ -1,22 +1,62 @@
-<h1 align="center">Oi 👋, Eu Sou Murilo Natã</h1>
-<h3 align="center">Analista de Preços e Dados | Python • SQL • Excel • Power BI</h3>
+<div align="center">
 
-- 🌱 Atualmente estou Aprendendo **Python para análise de dados, SQL avançado e DAX no Power BI**
+# Murilo Natã Santos
 
-- 💬 Me pergunte sobre **Python, SQL, Excel Avançado e Power BI**
+**Business Intelligence · Analytics Engineering · Inteligência de Negócios**
 
-- 📫Você pode me achar no e-mail **Murguiles@gmail.com**
+Transformo dados operacionais, comerciais e financeiros em indicadores confiáveis, processos mais eficientes e decisões mais claras.
 
-- 📄 Veja meu perfil profissional [www.linkedin.com/in/murilonatasantos](www.linkedin.com/in/murilonatasantos)
+[**Portfólio profissional**](https://murilonathandc.github.io/MuriloNathanDC/) · [**LinkedIn**](https://www.linkedin.com/in/murilonatasantos/) · [**Contato**](mailto:murguiles@gmail.com)
 
-<h3 align="left">Conecte-se comigo:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/murilonatasantos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/murilonatasantos" height="30" width="40" /></a>
-<a href="https://fb.com/murilo nathan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="murilo nathan" height="30" width="40" /></a>
-<a href="https://instagram.com/murilo_nathan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="murilo_nathan" height="30" width="40" /></a>
-</p>
+</div>
 
-<h3 align="left">Idiomas e ferramentas:</h3>
-<p align="left"> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" altura="40"/> </a> </p>
+---
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=murilonathandc&show_icons=true&locale=en&layout=compact" alt="murilonathandc" /></p>
+## Perfil
+
+Sou **Analista de Dados**, formado em Ciência de Dados, com experiência em **Business Intelligence, pricing, análise financeira, integração de dados e indicadores operacionais**.
+
+Minha atuação combina entendimento das regras de negócio com desenvolvimento técnico: levantamento de requisitos, extração e tratamento de dados, modelagem, definição de KPIs, automação, visualização e validação junto às áreas.
+
+Passei por contextos de **cooperativa agroindustrial e distribuição agrícola** e atualmente desenvolvo soluções de dados para **gestão de operações e serviços**. Meu foco é construir análises que possam ser usadas no dia a dia — não apenas relatórios visualmente atraentes.
+
+## Projetos selecionados
+
+| Projeto | Problema de negócio e solução |
+| --- | --- |
+| **[Pricing e Inteligência Comercial — Lavoro Agro](https://murilonathandc.github.io/MuriloNathanDC/projetos/pricing-lavoro.html)** | Monitoramento de aderência às listas de preços, descontos, margens, alçadas comerciais e diferenças entre empresas e regionais. **Power BI · DAX · SQL · BigQuery** |
+| **[Engenharia de Dados e BI Operacional — FIMM](https://murilonathandc.github.io/MuriloNathanDC/projetos/operacoes-dados.html)** | Integração de fontes operacionais, rotinas de tratamento e indicadores de produtividade, execução, pendências, eficiência e SLA. **Python · PostgreSQL · SQL · Power BI** |
+| **[Inteligência de Churn — AlfaLabs](https://murilonathandc.github.io/MuriloNathanDC/projetos/alfalabs.html)** | Aplicação analítica para acompanhar comportamento, adoção de funcionalidades e sinais de risco na carteira de clientes. **Python · Streamlit · PostgreSQL** |
+| **[Central de Gestão de BDOs — FIMM](https://murilonathandc.github.io/MuriloNathanDC/projetos/central-bdos.html)** | Aplicação interna para acompanhamento de ocorrências, prazos, histórico, responsáveis e indicadores de gestão. **Apps Script · JavaScript · Automação** |
+| **[Portal de Produção por Agente — FIMM](https://murilonathandc.github.io/MuriloNathanDC/projetos/portal-producao-agentes.html)** | Organização de indicadores e histórico por agente para apoiar acompanhamento operacional e conferência dos resultados. **Apps Script · KPIs · JavaScript** |
+
+**[Explorar todos os estudos de caso no portfólio](https://murilonathandc.github.io/MuriloNathanDC/)**
+
+## Competências técnicas
+
+| Área | Tecnologias e práticas |
+| --- | --- |
+| **Business Intelligence** | Power BI, DAX, Power Query, modelagem dimensional, Star Schema, KPIs e visualização de dados |
+| **Dados e integração** | SQL, PostgreSQL, SQL Server, Oracle, BigQuery, ETL/ELT, qualidade e validação de dados |
+| **Desenvolvimento e automação** | Python, Pandas, Streamlit, APIs REST, Google Apps Script, JavaScript, Git e Docker |
+| **Negócio e indicadores** | Pricing, margens, rentabilidade, desempenho comercial, produtividade, eficiência e SLA |
+
+## Como abordo problemas de dados
+
+**Entender a decisão** → definir as **regras e métricas** → estruturar as **fontes de dados** → construir e validar o **modelo** → entregar a **análise** → acompanhar sua **utilização e evolução**.
+
+Valorizo soluções com documentação, consistência de indicadores, rastreabilidade e manutenção viável — especialmente quando diferentes áreas precisam confiar nos mesmos números.
+
+---
+
+<div align="center">
+
+### Vamos conversar sobre dados?
+
+Interesse em desafios de **Business Intelligence, Analytics e Engenharia Analítica**.
+
+[Portfólio](https://murilonathandc.github.io/MuriloNathanDC/) · [LinkedIn](https://www.linkedin.com/in/murilonatasantos/) · [E-mail](mailto:murguiles@gmail.com)
+
+<sub>Projetos profissionais apresentados em caráter demonstrativo, sem disponibilização de dados corporativos ou informações restritas.</sub>
+
+</div>

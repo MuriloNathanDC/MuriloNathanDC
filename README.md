@@ -1,62 +1,53 @@
-<div align="center">
-
 # Murilo Natã Santos
 
-**Business Intelligence · Analytics Engineering · Inteligência de Negócios**
+**Analista de Dados | Business Intelligence & Analytics**
 
-Transformo dados operacionais, comerciais e financeiros em indicadores confiáveis, processos mais eficientes e decisões mais claras.
+Desenvolvo soluções que conectam **dados, processos e decisões de negócio**, com foco em modelagem, indicadores, análise de desempenho e automação.
 
-[**Portfólio profissional**](https://murilonathandc.github.io/MuriloNathanDC/) · [**LinkedIn**](https://www.linkedin.com/in/murilonatasantos/) · [**Contato**](mailto:murguiles@gmail.com)
+[Portfólio profissional](https://murilonathandc.github.io/MuriloNathanDC/) · [LinkedIn](https://www.linkedin.com/in/murilonatasantos/) · [E-mail](mailto:murguiles@gmail.com)
 
-</div>
+## Sobre
 
----
+- Analista de Dados com experiência em **BI, SQL, Power BI, Python e integração de dados**.
+- Atuação em análises **comerciais, financeiras e operacionais**, da definição do indicador à entrega para gestão.
+- Experiência com **pricing, rentabilidade, produtividade, SLAs e automação de processos**.
+- Interesse em soluções de dados com **qualidade, rastreabilidade, documentação e aplicação real no negócio**.
 
-## Perfil
+## Projetos em destaque
 
-Sou **Analista de Dados**, formado em Ciência de Dados, com experiência em **Business Intelligence, pricing, análise financeira, integração de dados e indicadores operacionais**.
-
-Minha atuação combina entendimento das regras de negócio com desenvolvimento técnico: levantamento de requisitos, extração e tratamento de dados, modelagem, definição de KPIs, automação, visualização e validação junto às áreas.
-
-Passei por contextos de **cooperativa agroindustrial e distribuição agrícola** e atualmente desenvolvo soluções de dados para **gestão de operações e serviços**. Meu foco é construir análises que possam ser usadas no dia a dia — não apenas relatórios visualmente atraentes.
-
-## Projetos selecionados
-
-| Projeto | Problema de negócio e solução |
+| Projeto | Desafio e solução |
 | --- | --- |
-| **[Pricing e Inteligência Comercial — Lavoro Agro](https://murilonathandc.github.io/MuriloNathanDC/projetos/pricing-lavoro.html)** | Monitoramento de aderência às listas de preços, descontos, margens, alçadas comerciais e diferenças entre empresas e regionais. **Power BI · DAX · SQL · BigQuery** |
-| **[Engenharia de Dados e BI Operacional — FIMM](https://murilonathandc.github.io/MuriloNathanDC/projetos/operacoes-dados.html)** | Integração de fontes operacionais, rotinas de tratamento e indicadores de produtividade, execução, pendências, eficiência e SLA. **Python · PostgreSQL · SQL · Power BI** |
-| **[Inteligência de Churn — AlfaLabs](https://murilonathandc.github.io/MuriloNathanDC/projetos/alfalabs.html)** | Aplicação analítica para acompanhar comportamento, adoção de funcionalidades e sinais de risco na carteira de clientes. **Python · Streamlit · PostgreSQL** |
-| **[Central de Gestão de BDOs — FIMM](https://murilonathandc.github.io/MuriloNathanDC/projetos/central-bdos.html)** | Aplicação interna para acompanhamento de ocorrências, prazos, histórico, responsáveis e indicadores de gestão. **Apps Script · JavaScript · Automação** |
-| **[Portal de Produção por Agente — FIMM](https://murilonathandc.github.io/MuriloNathanDC/projetos/portal-producao-agentes.html)** | Organização de indicadores e histórico por agente para apoiar acompanhamento operacional e conferência dos resultados. **Apps Script · KPIs · JavaScript** |
+| **[Pricing e Política Comercial](https://murilonathandc.github.io/MuriloNathanDC/projetos/pricing-lavoro.html)** | **Problema:** acompanhar a aderência a listas de preços e identificar desvios comerciais. **Solução:** painel interativo para analisar preços praticados, descontos por alçada, margens, variações e benchmarks. **Power BI · DAX · SQL · BigQuery** |
+| **[Engenharia de Dados e BI Operacional](https://murilonathandc.github.io/MuriloNathanDC/projetos/operacoes-dados.html)** | **Problema:** consolidar informações operacionais de diversas fontes. **Solução:** pipelines de tratamento e indicadores de produtividade, execução, eficiência e SLA. **Python · PostgreSQL · Power BI** |
+| **[Inteligência de Churn para SaaS](https://murilonathandc.github.io/MuriloNathanDC/projetos/alfalabs.html)** | **Problema:** identificar sinais de perda e baixa utilização de clientes. **Solução:** aplicação analítica com indicadores de risco, comportamento e adoção de funcionalidades. **Python · Streamlit · PostgreSQL** |
 
-**[Explorar todos os estudos de caso no portfólio](https://murilonathandc.github.io/MuriloNathanDC/)**
+## Outras soluções
 
-## Competências técnicas
-
-| Área | Tecnologias e práticas |
+| Projeto | Objetivo |
 | --- | --- |
-| **Business Intelligence** | Power BI, DAX, Power Query, modelagem dimensional, Star Schema, KPIs e visualização de dados |
-| **Dados e integração** | SQL, PostgreSQL, SQL Server, Oracle, BigQuery, ETL/ELT, qualidade e validação de dados |
-| **Desenvolvimento e automação** | Python, Pandas, Streamlit, APIs REST, Google Apps Script, JavaScript, Git e Docker |
-| **Negócio e indicadores** | Pricing, margens, rentabilidade, desempenho comercial, produtividade, eficiência e SLA |
+| **[Central de Gestão de BDOs](https://murilonathandc.github.io/MuriloNathanDC/projetos/central-bdos.html)** | Acompanhar ocorrências, prazos, responsáveis, histórico e indicadores operacionais em aplicação web. |
+| **[Portal de Produção por Agente](https://murilonathandc.github.io/MuriloNathanDC/projetos/portal-producao-agentes.html)** | Disponibilizar indicadores e histórico por agente, apoiando conferência e gestão da produtividade. |
 
-## Como abordo problemas de dados
+**[Ver o portfólio completo e os estudos de caso](https://murilonathandc.github.io/MuriloNathanDC/)**
 
-**Entender a decisão** → definir as **regras e métricas** → estruturar as **fontes de dados** → construir e validar o **modelo** → entregar a **análise** → acompanhar sua **utilização e evolução**.
+## Competências
 
-Valorizo soluções com documentação, consistência de indicadores, rastreabilidade e manutenção viável — especialmente quando diferentes áreas precisam confiar nos mesmos números.
+| Área | Ferramentas e práticas |
+| --- | --- |
+| **Business Intelligence** | Power BI, DAX, Power Query, KPIs, modelagem dimensional e visualização |
+| **SQL e dados** | PostgreSQL, SQL Server, Oracle, BigQuery, ETL/ELT e qualidade dos dados |
+| **Desenvolvimento** | Python, Pandas, Streamlit, JavaScript, Google Apps Script, APIs REST e Docker |
+| **Engenharia e práticas** | Git, documentação técnica, automação, integração e validação de dados |
 
----
+## Formação
 
-<div align="center">
+- **Tecnologia em Ciência de Dados** — UniCesumar · **2023–2025** (concluído)
+- **Power BI para Business Intelligence** — Data Science Academy
+- **Banco de Dados e SQL sem Mistérios** — Udemy
+- **Microsoft PL-300** — preparação para certificação em andamento
 
-### Vamos conversar sobre dados?
+## Contato
 
-Interesse em desafios de **Business Intelligence, Analytics e Engenharia Analítica**.
+[LinkedIn](https://www.linkedin.com/in/murilonatasantos/) · [Portfólio](https://murilonathandc.github.io/MuriloNathanDC/) · [E-mail](mailto:murguiles@gmail.com)
 
-[Portfólio](https://murilonathandc.github.io/MuriloNathanDC/) · [LinkedIn](https://www.linkedin.com/in/murilonatasantos/) · [E-mail](mailto:murguiles@gmail.com)
-
-<sub>Projetos profissionais apresentados em caráter demonstrativo, sem disponibilização de dados corporativos ou informações restritas.</sub>
-
-</div>
+<sub>Os estudos de caso profissionais são apresentados de forma demonstrativa, sem disponibilizar dados corporativos ou informações restritas.</sub>

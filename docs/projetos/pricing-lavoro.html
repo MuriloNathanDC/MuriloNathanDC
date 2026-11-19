@@ -23,6 +23,11 @@ section{border-top:1px solid var(--line);padding:61px 0}p{color:var(--muted);max
 .number{font-size:12px;color:#7a7c7d;letter-spacing:.1em;font-weight:750;margin-bottom:9px}
 .metricrow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:30px 0}.mini{background:#fff;border:1px solid var(--line);padding:20px 16px;border-radius:8px;min-height:95px}.mini strong{display:block;font-size:16px;line-height:1.35}.mini span{display:block;font-size:12px;color:#6f7379;margin-top:7px}
 @media(max-width:720px){.hero{padding:54px 0}.grid,.metricrow{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.step{text-align:left}section{padding:47px 0}}
+
+/* Relatório público incorporado do Power BI */
+.embed-powerbi{margin:27px 0 15px;border:1px solid var(--line);background:#fff;border-radius:10px;overflow:hidden}
+.embed-powerbi iframe{display:block;width:100%;height:700px;border:0}
+@media(max-width:720px){.embed-powerbi iframe{height:500px}}
 </style>
 </head>
 <body><div class="wrap">
@@ -81,6 +86,12 @@ section{border-top:1px solid var(--line);padding:61px 0}p{color:var(--muted);max
 <div class="kicker">06 / Apresentação visual</div><h2>Galeria de análises</h2>
 <p>As principais telas selecionadas para demonstração são: KPI Aderência de Lista, Benchmark Interno, Análise de Descontos, Análise de Preços por Faixa e Radar de Listas de Preço.</p>
 <div class="visual"><strong>Galeria de Pricing</strong><p id="pricing-gallery-status">Estudo de caso disponível. A galeria poderá ser adicionada após revisão e proteção de dados comerciais.</p><p><a id="pricing-gallery-link" href="pricing-lavoro-galeria.html" style="display:none;font-weight:700">Visualizar as telas do painel ↗</a></p></div>
+<h3 style="margin-top:42px">Dashboard interativo — Pricing e Política Comercial</h3>
+<p>Explore a demonstração pública do painel no Power BI: utilize filtros, navegue pelas visões e investigue os indicadores de aderência aos preços, descontos e margens.</p>
+<div class="embed-powerbi">
+<iframe title="Dashboard Interativo de Pricing — Power BI" src="https://app.powerbi.com/view?r=eyJrIjoiMmVmZDJjNzItMzk3MC00YTFlLThhNTQtYzVkYjY4ZjhlNjc2IiwidCI6IjI4MWY3ODI3LWI2NzktNDZiNy04YmNlLWQyOTM4NmU1ODNmYiJ9" loading="lazy" allowfullscreen></iframe>
+</div>
+<p class="small">Se a visualização não carregar no navegador, <a href="https://app.powerbi.com/view?r=eyJrIjoiMmVmZDJjNzItMzk3MC00YTFlLThhNTQtYzVkYjY4ZjhlNjc2IiwidCI6IjI4MWY3ODI3LWI2NzktNDZiNy04YmNlLWQyOTM4NmU1ODNmYiJ9" target="_blank" rel="noopener noreferrer">abra o painel em uma nova aba</a>.</p>
 <a class="back" href="../index.html#projetos">← Voltar ao portfólio</a>
 </section>
 <script>fetch("pricing-lavoro-galeria.html",{method:"HEAD"}).then(function(r){if(r.ok){document.getElementById("pricing-gallery-link").style.display="inline";document.getElementById("pricing-gallery-status").textContent="Galeria disponível para visualização."}}).catch(function(){})</script>
